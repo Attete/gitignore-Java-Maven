@@ -1,7 +1,7 @@
 #Java
+# Package Files
 #-----------------
 .mtj.tmp/
-*.class
 *.jar
 *.war
 *.ear
@@ -9,6 +9,14 @@
 *.log
 *.tar.gz
 *.rar
+*.zip
+
+# Compiled class file
+#-----------------
+*.class
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+#-----------------
 hs_err_pid*
 
 #Maven
@@ -38,3 +46,9 @@ out/
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+ishopdb
+
+# Git
+#-----------------
+git.properties
+
